@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Hector Santiago Loyde Figueroa -->
+<!DOCTYPE Universidad SYSTEM "Universidad.dtd">
+
+<Universidad>
+    <Alumnos>
+        <Alumno>
+            <ID>C1</ID>
+            <Nombre>Juan</Nombre>
+            <Carrera>Contabilidad</Carrera>
+            <Materia_1>Finanzas</Materia_1>
+            <Materia_2>Administracion</Materia_2>
+            <Calificacion1>90</Calificacion1>
+            <Calificacion2>85</Calificacion2>
+        </Alumno>
+        <Alumno>
+            <ID>C2</ID>
+            <Nombre>Daniela</Nombre>
+            <Carrera>Negocios Internacionales</Carrera>
+            <Materia_1>Frances</Materia_1>
+            <Materia_2>Comunicacion</Materia_2>
+            <Calificacion1>91</Calificacion1>
+            <Calificacion2>94</Calificacion2>
+        </Alumno>
+        <Alumno>
+            <ID>C3</ID>
+            <Nombre>Jason</Nombre>
+            <Carrera>Arquitectura</Carrera>
+            <Materia_1>Planos y perspectivas</Materia_1>
+            <Materia_2>Construccion</Materia_2>
+            <Calificacion1>84</Calificacion1>
+            <Calificacion2>80</Calificacion2>
+        </Alumno>
+        <Alumno>
+            <ID>C4</ID>
+            <Nombre>Braulio</Nombre>
+            <Carrera>Ing. Sistemas</Carrera>
+            <Materia_1>Redes</Materia_1>
+            <Materia_2>Arq. de Computadoras</Materia_2>
+            <Calificacion1>76</Calificacion1>
+            <Calificacion2>87</Calificacion2>
+        </Alumno>
+        <Alumno>
+            <ID>C5</ID>
+            <Nombre>Priscilla</Nombre>
+            <Carrera>Historia</Carrera>
+            <Materia_1>Metodologia e investigacion</Materia_1>
+            <Materia_2>Paleografia</Materia_2>
+            <Calificacion1>93</Calificacion1>
+            <Calificacion2>99</Calificacion2>
+        </Alumno>
+    </Alumnos>
+</Universidad>
