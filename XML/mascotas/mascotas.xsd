@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="veterinaria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="clientes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cliente" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ID_Cliente" type="xs:string"/>
+                                        <xs:element name="Nombre_Cliente" type="xs:string"/>
+                                        <xs:element name="Teléfono" type="xs:string"/>
+                                        <xs:element name="Nombre_Mascota" type="xs:string"/>
+                                        <xs:element name="Especie" type="xs:string"/>
+                                        <xs:element name="Servicio" type="xs:string"/>
+                                        <xs:element name="Fecha" type="xs:date"/>
+                                        <xs:element name="Costo" type="xs:decimal"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
